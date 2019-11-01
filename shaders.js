@@ -14,6 +14,7 @@ var fragmentShader = `
 
 varying vec2 fragCoord;
 uniform float ratio;
+uniform vec2 iResolution;
 
 float blackBodySpectralDensity(float lambda, float T) {
     
